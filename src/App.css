@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i|Roboto:300,300i,400,500');
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.app {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #000;
+  width: 100%;
+}
+
+.about_title {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.back {
+  z-index: 2; /* back side, placed above front */
+  transform: rotateY(0deg);
+  background-color: #101357;
+  color: white;
+}
+
+.back p {
+  margin: 10px;
+  padding: 10px;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
+}
+
+.bg_color_yellow {
+  padding: 0;
+  background-color: #fbaf08;
+}
+
+.flip_container_grid {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-column-gap: 10px;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.flip_container {
+  display: inline-block;
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+  margin: 10px;
+}
+
+.flip-container:hover .flip_card {
+  transform: rotateY(180deg);
+}
+
+.flip_card {
+  display: flex;
+  position: relative;
+  font-size: 20px;
+  color: #222;
+  transition: 0.7s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.front {
+  z-index: 1;
+  transform: rotateY(180deg);
+  background-color: #00a0a0;
+  color: white;
+}
+
+.flip_card,
+.front,
+.back {
+  height: 260px;
+  width: 260px;
+  border-radius: 30px;
+}
+
+.flip_card:hover {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+.front p {
+  margin: 10px;
+  padding: 10px;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  font-size: 32px;
+  line-height: 28px;
+  font-weight: bolder;
+}
+
+.text-thin {
+  color: black;
+  font-size: 18px;
+  line-height: 28px;
+  padding-bottom: 42px;
+  font-weight: lighter;
+}
