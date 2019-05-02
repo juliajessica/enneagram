@@ -1,4 +1,4 @@
-#Enneagram App built for kicks and giggles to show the different personality types one might have
+# Enneagram App built for kicks and giggles to show the different personality types one might have :call_me_hand::skin-tone-4:
 
 ## Libraries
 
