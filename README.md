@@ -1,5 +1,5 @@
 # Enneagram 
-App built for kicks and giggles to show the different personality types one might have :call_me_hand:
+:react:  App built for kicks and giggles to show the different personality types one might have :call_me_hand:
 
 ## Libraries
 
