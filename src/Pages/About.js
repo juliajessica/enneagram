@@ -1,5 +1,5 @@
 import React from 'react';
-import './Enneagram.css';
+import './Header.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 // import { Link } from 'react-router-dom';

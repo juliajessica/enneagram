@@ -1,10 +1,10 @@
 import React from 'react';
-import './Enneagram.css';
+import './Header.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 // import { withRouter } from 'react-router-dom';
 
-class Enneagram extends React.Component {
+class Header extends React.Component {
   componentDidMount() {
     AOS.init({
       duration: 3000,
@@ -25,4 +25,4 @@ class Enneagram extends React.Component {
   }
 }
 
-export default Enneagram;
+export default Header;
