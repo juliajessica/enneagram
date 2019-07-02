@@ -3,7 +3,9 @@
 }
 
 .about_subtitle {
-  color: black;
+  position: relative;
+  top: -40px;
+  color: #211F1F;
   font-size: 60px;
   line-height: 28px;
   font-weight: lighter;
@@ -23,7 +25,7 @@
 }
 
 .about_types p:hover {
-  color: #00804e;
+  color: #be93dd;
 }
 
 .about_types p {
@@ -45,6 +47,10 @@
   animation-direction: alternate;
 }
 
+.enneagram_fullDescription {
+  line-height: 30px;
+}
+
 .ennegram_chart {
   position: relative;
   height: 590px;
@@ -64,6 +70,17 @@
   width: 100%;
 }
 
+.enneagram_intro img:first-of-type {
+  width: 55%;
+}
+
+.enneagram_intro img:last-of-type {
+  width: 20%;
+  position: relative;
+  top: 80px;
+  left:40px;
+}
+
 .enneagram_subTitle {
   position: absolute;
   height: 200px;
@@ -71,7 +88,7 @@
   margin: 0 auto;
   top: 240px;
   left: -180px;
-  color: white;
+  color: #EEE6E6;
   font-size: 28px;
   line-height: 28px;
   font-weight: lighter;
@@ -89,12 +106,35 @@
   font-weight: lighter;
   letter-spacing: 7.17px;
   line-height: 117px;
-  color: white;
+  color: #EEE6E6;
 }
 
-.left_block {
+.type_grid {
+  display: grid;
+  grid-template: auto auto;
+  align-content: center;
+  grid-column-gap: 10px;
+  grid-template-areas: 'left_block right_block';
+}
+
+.type-color_left_block {
+  min-width: 60%;
   padding: 150px 150px 150px 150px;
   grid-area: left_block;
+  color: #EEE6E6;
+}
+.left_block h2 {
+  color: #EEE6E6;
+}
+
+.type-white_left_block {
+  min-width: 60%;
+  padding: 150px 150px 150px 150px;
+  grid-area: left_block;
+  color: #211F1F;
+}
+.type-white_left_block h2 {
+  color: #211F1F;
 }
 
 .padding_wrapper {
@@ -104,9 +144,10 @@
 .right_block {
   padding: 150px 150px 150px 150px;
   grid-area: right_block;
-  background-image: url('../Assets/colorDesign.png');
+  min-width: 60%;
+  background-image: url('../Assets/girl3.png');
   background-position: center;
-  background-size: 900px 900px;
+  background-size: 900px;
 }
 
 .right_block_blank {
@@ -114,12 +155,6 @@
   grid-area: right_block;
 }
 
-.type_grid {
-  display: grid;
-  grid-template-columns: 700px auto;
-  grid-column-gap: 10px;
-  grid-template-areas: 'left_block right_block';
-}
 
 @keyframes bgcolor {
   0% {

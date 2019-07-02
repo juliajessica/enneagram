@@ -39,11 +39,12 @@ class About extends React.Component {
             <a href="#type_4">
               <p>Type 4</p>
             </a>
-          </div>
-          <div className="about_types">
             <a href="#type_5">
               <p>Type 5</p>
             </a>
+          </div>
+          <div className="about_types">
+            
             <a href="#type_6">
               <p>Type 6</p>
             </a>
@@ -53,8 +54,6 @@ class About extends React.Component {
             <a href="#type_8">
               <p>Type 8</p>
             </a>
-          </div>
-          <div className="about_types">
             <a href="#type_9">
               <p>Type 9</p>
             </a>

@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i|Roboto:300,300i,400,500');
 
+/* black: #211F1F */
+/* pink: #d77d7f */
+/* white: #EEE6E6 */
+/* beige: #be93dd */
+
 a {
   text-decoration: none;
-  color: black;
+  color:#211F1F;
 }
 
 .app {
@@ -20,8 +25,8 @@ a {
 .back {
   z-index: 2; /* back side, placed above front */
   transform: rotateY(0deg);
-  background-color: #101357;
-  color: white;
+  background-color: #211F1F;;
+  color: #EEE6E6;
 }
 
 .back p {
@@ -32,9 +37,9 @@ a {
   text-align: center;
 }
 
-.bg_color_yellow {
+.bg_color {
   padding: 0;
-  background-color: #fbaf08;
+  background-color: #211F1F;
 }
 
 .flip_container_grid {
@@ -81,8 +86,9 @@ a {
 .front {
   z-index: 1;
   transform: rotateY(180deg);
-  background-color: #00a0a0;
-  color: white;
+  background-color: #d77d7f;
+  color: #EEE6E6;
+  opacity: 1px;
 }
 
 .flip_card,
@@ -107,14 +113,14 @@ a {
 }
 
 h2 {
-  color: black;
+  color: #211F1F;
   font-size: 32px;
   line-height: 28px;
   font-weight: bolder;
 }
 
 .text-thin {
-  color: black;
+  color: #211F1F;
   font-size: 18px;
   line-height: 28px;
   padding-bottom: 42px;

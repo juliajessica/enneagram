@@ -2,6 +2,8 @@ import React from 'react';
 import './Header.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import swimminglady from '../Assets/swimminglady.png';
+import male from '../Assets/male.jpg'
 // import { withRouter } from 'react-router-dom';
 
 class Header extends React.Component {
@@ -18,7 +20,10 @@ class Header extends React.Component {
             ENNEAGRAM
           </h1>
           <div className="enneagram_subTitle">Whats Your Type?</div>
-          <div className="ennegram_chart" />
+          <img src={swimminglady} alt="swimming lady" />
+          <img src={male} alt="man with drink" />
+          {/*  spinner */}
+          {/* <div className="ennegram_chart" /> */}
         </div>
       </div>
     );
