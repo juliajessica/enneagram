@@ -88,9 +88,9 @@
   margin: 0 auto;
   top: 240px;
   left: -180px;
-  color: #EEE6E6;
-  font-size: 28px;
-  line-height: 28px;
+  color:#00009f;
+  font-size: 30px;
+  line-height: 30px;
   font-weight: lighter;
 }
 
@@ -128,7 +128,7 @@
 }
 
 .type-white_left_block {
-  min-width: 60%;
+  max-width: 745px;
   padding: 150px 150px 150px 150px;
   grid-area: left_block;
   color: #211F1F;
