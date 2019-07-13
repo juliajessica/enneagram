@@ -1,4 +1,0 @@
-[build]
-base = "enneagramApp/"
-publish = "enneagramApp/build/"
-command = "npm run build"
