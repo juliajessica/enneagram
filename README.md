@@ -1,6 +1,8 @@
 # Enneagram 
 React App built for kicks and giggles to show the different personality types one might have :call_me_hand:
 
+### Live Site: https://whats-your-type.netlify.com/
+
 ## Libraries
 
 React and AOS
