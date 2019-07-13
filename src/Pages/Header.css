@@ -129,6 +129,7 @@
 
 .type-white_left_block {
   max-width: 745px;
+  min-width: 300px;
   padding: 150px 150px 150px 150px;
   grid-area: left_block;
   color: #211F1F;
@@ -153,6 +154,7 @@
 .right_block_blank {
   padding: 150px 150px 150px 150px;
   grid-area: right_block;
+  min-width: 300px;
 }
 
 

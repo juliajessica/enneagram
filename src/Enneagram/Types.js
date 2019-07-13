@@ -8,15 +8,15 @@ export const Types = () => {
   return (
     <Fragment>
       <TypeColor
-        numberType={'Type 1'} 
-        type={'THE REFORMER'} 
-        description={'The Rational, Idealistic Type: Principled, Purposeful, Self-Controlled, and Perfectionistic'}
-        fullDescription={'Ones are conscientious and ethical, with a strong sense of right and wrong. They are teachers, crusaders, and advocates for change: always striving to improve things, but afraid of making a mistake. Well-organized, orderly, and fastidious, they try to maintain high standards, but can slip into being critical and perfectionistic. They typically have problems with resentment and impatience.'}
-        number={'Three'}
-        firstWingNumberType={'Nine-Wing'}
-        firstWingType={'The Idealist'}
-        secondWingNumberType={'Two-Wing'}
-        secondWingType={'The Advocate'}
+        numberType='Type 1'
+        type='THE REFORMER'
+        description='The Rational, Idealistic Type: Principled, Purposeful, Self-Controlled, and Perfectionistic'}
+        fullDescription='Ones are conscientious and ethical, with a strong sense of right and wrong. They are teachers, crusaders, and advocates for change: always striving to improve things, but afraid of making a mistake. Well-organized, orderly, and fastidious, they try to maintain high standards, but can slip into being critical and perfectionistic. They typically have problems with resentment and impatience.'
+        number='Three'
+        firstWingNumberType='Nine-Wing'
+        firstWingType='The Idealist'
+        secondWingNumberType='Two-Wing'
+        secondWingType='The Advocate'
         flipCard1={<FlipCard frontText={'Wise, discerning, realistic, and noble. Can be morally heroic.'} backText='At their Best'/>}
         flipCard2={<FlipCard frontText={'Of being corrupt/evil, defective'} backText='Basic Fear'/>}
         flipCard3={<FlipCard frontText={'To be good, to have integrity, to be balanced'} backText='Basic Desire'/>}
@@ -111,7 +111,7 @@ export const Types = () => {
         flipCard2={<FlipCard frontText={'Of being deprived and in pain'} backText='Basic Fear'/>}
         flipCard3={<FlipCard frontText={'To be satisfied and content—to have their needs fulfilled'} backText='Basic Desire'/>}
         flipCard4={<FlipCard frontText={'Want to maintain their freedom and happiness, to avoid missing out on worthwhile experiences, to keep themselves excited and occupied, to avoid and discharge pain.'} backText='Key Motivations'/>}
-        />
+      />
       <TypeWhite
         numberType={'Type 8'} 
         type={'THE ENTHUSIAST'} 
@@ -141,7 +141,7 @@ export const Types = () => {
         flipCard2={<FlipCard frontText={'Of loss and separation'} backText='Basic Fear'/>}
         flipCard3={<FlipCard frontText={'To have inner stability "peace of mind"'} backText='Basic Desire'/>}
         flipCard4={<FlipCard frontText={'Want to create harmony in their environment, to avoid conflicts and tension, to preserve things as they are, to resist whatever would upset or disturb them.'} backText='Key Motivations'/>}
-        />
+      />
     </Fragment>
   );
 }

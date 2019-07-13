@@ -45,6 +45,7 @@ class TypeColor extends React.Component {
 }
 
 TypeColor.propTypes = {
+  id: string,
   numberType: string,
   type: string,
   description: string,

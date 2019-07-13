@@ -26,7 +26,7 @@ class About extends React.Component {
             rather opens a pathway to self-discovery and greater personal
             awareness.
           </div>
-          <div className="about_types">
+          {/* <div className="about_types">
             <a href="#type_1">
               <p>Type 1</p>
             </a>
@@ -44,7 +44,6 @@ class About extends React.Component {
             </a>
           </div>
           <div className="about_types">
-            
             <a href="#type_6">
               <p>Type 6</p>
             </a>
@@ -57,7 +56,7 @@ class About extends React.Component {
             <a href="#type_9">
               <p>Type 9</p>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     );
