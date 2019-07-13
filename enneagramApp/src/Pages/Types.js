@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
-import '../Pages/Header.css';
+import './Header.css';
 import { FlipCard } from '../Components/FlipCard';
-import TypeWhite from './../Components/TypeWhite';
-import TypeColor from './../Components/TypeColor';
+import TypeWhite from '../Components/TypeWhite';
+import TypeColor from '../Components/TypeColor';
 
 export const Types = () => {
   return (
